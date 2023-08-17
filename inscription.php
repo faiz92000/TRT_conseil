@@ -23,6 +23,8 @@
                 <select id="userType" name="userType" required>
                     <option value="recruteur">Recruteur</option>
                     <option value="candidat">Candidat</option>
+                  <option value="consultant">Consultant</option>
+                  <option value="adminstrateur">Adminstrateur</option>
                 </select>
                 <label for="firstName">Prénom :</label>
                 <input type="text" id="firstName" name="firstName" required>
@@ -32,6 +34,7 @@
                 <input type="date" id="birthdate" name="birthdate" required>
                 <button type="submit">S'inscrire</button>
             </form>
+          <p>Déjà inscrit ? <a href="connexion.php">Connectez-vous ici</a></p>
         </section>
     </main>
     <footer>
