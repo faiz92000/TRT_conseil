@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publier une Annonce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TRT Conseil - Publier une Annonce</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Publier une Annonce</h2>
+            <form action="traitement_publier_annonce.php" method="POST">
+                <label for="titre">Intitulé du Poste :</label>
+                <input type="text" id="titre" name="titre" required>
+                <label for="lieu">Lieu de Travail :</label>
+                <input type="text" id="lieu" name="lieu" required>
+                <label for="description">Description :</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+                <button type="submit">Publier l'Annonce</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 TRT Conseil. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
